@@ -1,0 +1,44 @@
+{
+  "name": "boiler-plate-back-end",
+  "version": "1.0.0",
+  "description": "MERN starter skeleton with Ant Design",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "backend": "nodemon index.js",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix ../client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliepartner/Boiler-Plate.git"
+  },
+  "keywords": [
+    "boiler",
+    "plate"
+  ],
+  "author": "Elie Orgel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliepartner/Boiler-Plate/issues"
+  },
+  "homepage": "https://github.com/eliepartner/Boiler-Plate#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "formik": "^2.2.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.16",
+    "saslprep": "^1.0.3",
+    "supports-color": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
